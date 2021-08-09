@@ -1,3 +1,25 @@
+:root {
+    --logo-text-color: blue;
+    --logo-visual-color: black;
+    --header-nav-color: black;
+    --header-nav-hover: blue;
+}
 body{
     background-color: #fff;
+}
+
+.logo-color{
+    color: var(--logo-text-color);
+}
+.logo-visual{
+    color: var(--logo-visual-color);
+}
+.header-nav a{
+    color: var(--header-nav-color);
+}
+.header-nav a:hover, .header-nav a:focus {
+    color: var(--header-nav-hover);
+}
+.dignity-title {
+    
 }
