@@ -1,8 +1,8 @@
 :root {
-    --logo-text-color: blue;
+    --logo-text-color: #2196F3;
     --logo-visual-color: black;
     --header-nav-color: black;
-    --header-nav-hover: blue;
+    --header-nav-hover: #2196F3;
 }
 body{
     background-color: #fff;
@@ -12,14 +12,96 @@ body{
     color: var(--logo-text-color);
 }
 .logo-visual{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+   
+
+letter-spacing: 0.03em;
     color: var(--logo-visual-color);
 }
 .header-nav a{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
     color: var(--header-nav-color);
 }
 .header-nav a:hover, .header-nav a:focus {
     color: var(--header-nav-hover);
 }
-.dignity-title {
+.header-contacts {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+.header-contacts:hover, .header-contacts:focus {
+    color: var(--header-nav-hover);
+}
+.hero {
+
+}
+    
+.hero-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #2F303A;
     
 }
+.hero-button {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    background-color: #2196F3;
+    color: #fff;
+    }
+.dignity-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.dignity-text {
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em
+    color #757575;
+
+}
+
+
+
+
+
+
+
